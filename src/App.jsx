@@ -1,9 +1,10 @@
-import './App.css';
+import MenuCard from "./components/MenuCard";
+import Restaurant from "./components/Restaurant";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to React</h1>
+    <div>
+      <Restaurant />
     </div>
   );
 }
